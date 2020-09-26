@@ -16,6 +16,10 @@ public class Book extends AuditModel {
 	@Column(name = "title")
 	private String title;
 
+
+	@Column(name = "space")
+	private String space;
+
 	@JsonBackReference
 	@ManyToOne(fetch = FetchType.LAZY, optional = false)
 	@JoinColumn(name = "library_id")
