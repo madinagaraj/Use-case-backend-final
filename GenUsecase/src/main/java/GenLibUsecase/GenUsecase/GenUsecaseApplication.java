@@ -10,5 +10,6 @@ public class GenUsecaseApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GenUsecaseApplication.class, args);
+//tetsing changes
 	}
 }
