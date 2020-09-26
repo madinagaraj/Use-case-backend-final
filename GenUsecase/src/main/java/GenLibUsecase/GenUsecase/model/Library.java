@@ -24,6 +24,9 @@ public class Library extends AuditModel {
     @Column(name = "library_name")
     private String libraryName;
 
+    @Column(name = "strong_name")
+    private String strongName;
+
     @JsonManagedReference
     @OneToMany(mappedBy = "library", cascade = CascadeType.ALL)
     private List < Book > books;
