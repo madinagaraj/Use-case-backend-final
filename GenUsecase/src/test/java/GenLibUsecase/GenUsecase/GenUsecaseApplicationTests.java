@@ -10,6 +10,8 @@ class GenUsecaseApplicationTests {
 	void contextLoads() {
 
 //making chnages to spring
+
+//finally learnt
 	}
 
 }
